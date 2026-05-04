@@ -129,8 +129,8 @@ AI          →  Claude Code · MCP · AI Agents · SSE streaming
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=dnnsk&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&title_color=7EE787&text_color=C7D0C9&icon_color=7EE787&include_all_commits=true&count_private=true">
-  <img src="https://github-readme-stats.vercel.app/api?username=dnnsk&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&title_color=0A6B2E&text_color=1A1E1C&icon_color=0A6B2E&include_all_commits=true&count_private=true" alt="GitHub stats">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=dnnsk&hide_border=true&background=00000000&stroke=7EE787&ring=7EE787&fire=FFA657&currStreakLabel=7EE787&sideLabels=C7D0C9&dates=C7D0C9&currStreakNum=C7D0C9&sideNums=C7D0C9">
+  <img src="https://streak-stats.demolab.com/?user=dnnsk&hide_border=true&background=00000000&stroke=0A6B2E&ring=0A6B2E&fire=B84100&currStreakLabel=0A6B2E&sideLabels=1A1E1C&dates=1A1E1C&currStreakNum=1A1E1C&sideNums=1A1E1C" alt="GitHub streak">
 </picture>
 
 <br/>
