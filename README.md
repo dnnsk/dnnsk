@@ -85,15 +85,61 @@ local AI, medical references.
 
 ---
 
-### `$ cat stack.txt`
+<details>
+<summary><h3 style="display:inline"><code>$ cat stack.config.ts</code></h3></summary>
 
+<br/>
+
+```ts
+// daily drivers, sorted by where they live
+import type { Stack } from "./denis";
+
+export const stack: Stack = {
+  languages: ["TypeScript", "JavaScript (ES6+)", "SQL", "HTML", "CSS"],
+
+  frontend: {
+    core:    ["React 19", "Next.js 16", "React Native"],
+    styling: ["Tailwind CSS", "Styled Components", "CSS Modules", "PostCSS"],
+    motion:  ["GSAP", "Framer Motion", "Canvas"],
+    state:   ["Redux", "TanStack Query", "Zustand", "Context API"],
+  },
+
+  backend: {
+    runtime:  ["Node.js", "NestJS", "Express"],
+    realtime: ["WebSockets", "SSE", "WebRTC"],
+    apis:     ["REST", "OAuth 2.0", "tRPC"],
+  },
+
+  data: {
+    relational: ["PostgreSQL"],
+    keyvalue:   ["Redis", "Upstash"],
+    document:   ["MongoDB"],
+    backend:    ["Supabase"],
+  },
+
+  infra: {
+    cloud:      ["AWS", "Cloudflare", "Vercel"],
+    containers: ["Docker", "Kubernetes"],
+    ci_cd:      ["GitHub Actions", "Feature Flags"],
+  },
+
+  ai: {
+    sdks:    ["Anthropic SDK", "Vercel AI SDK", "AI Gateway"],
+    coding:  ["Claude Code", "Codex", "Cursor", "Copilot"],
+    custom:  ["MCP servers", "Figma MCP", "Multi-agent code review"],
+    craft:   ["Prompt engineering", "Context engineering", "n8n", "Make.com"],
+  },
+
+  testing:       ["Vitest", "Jest", "Playwright", "Cypress", "Testing Library", "TDD/BDD"],
+  observability: ["Sentry", "Datadog", "SonarQube", "Core Web Vitals", "Lighthouse"],
+  tooling:       ["Vite", "Turbopack", "Webpack", "pnpm", "ESLint", "Prettier", "Nx"],
+  design:        ["Figma (Dev Mode)", "Design Tokens", "Storybook", "WCAG 2.1"],
+
+  shippingSince: 2014,
+} as const;
 ```
-Languages   →  TypeScript · JavaScript · SQL
-Frontend    →  React · Next.js · Tailwind · Design Systems
-Backend     →  Node.js · NestJS · WebSockets · PostgreSQL · Redis
-Infra       →  AWS · Cloudflare · Vercel
-AI          →  Claude Code · MCP · AI Agents · SSE streaming
-```
+
+</details>
 
 ---
 
@@ -127,6 +173,14 @@ AI          →  Claude Code · MCP · AI Agents · SSE streaming
 ---
 
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=dnnsk&bg_color=00000000&color=7EE787&line=7EE787&point=FFA657&hide_border=true&area=true&custom_title=Contribution%20activity">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dnnsk&bg_color=00000000&color=0A6B2E&line=0A6B2E&point=B84100&hide_border=true&area=true&custom_title=Contribution%20activity" alt="Contribution activity">
+</picture>
+
+<br/>
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=dnnsk&hide_border=true&background=00000000&stroke=7EE787&ring=7EE787&fire=FFA657&currStreakLabel=7EE787&sideLabels=C7D0C9&dates=C7D0C9&currStreakNum=C7D0C9&sideNums=C7D0C9">
