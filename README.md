@@ -33,10 +33,6 @@
 > 13 years shipping. Currently building AI-native products end-to-end.
 ```
 
-I read research papers as warm-ups. I prototype in Claude Code, then cull half of
-what I built before anyone sees it. The thing I'm best at is shrinking the loop
-between *"what if"* and *"deployed."*
-
 ---
 
 ### `$ stats --recent`
