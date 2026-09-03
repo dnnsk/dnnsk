@@ -29,7 +29,7 @@
 
 ```text
 > Π-shaped builder. Engineering craft on one side, org design on the other.
-> Ex-G2A, Intercom, Volvo. Ukrainian, in Poland ~13 years.
+> Ex-G2A, Intercom, Volvo. Based in Poland.
 > 13 years shipping. Currently building AI-native products end-to-end.
 ```
 
